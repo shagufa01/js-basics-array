@@ -90,13 +90,14 @@ console.log(array.length);
 
 //array
 
-var array = [1,2,3,4,5];
-console.log(array = [1,2,3,4,5]);
-function integers() {
-    for (i=0;i<=array;i++)
-    console.log(integers);
-    }
+var array = ["one","two","three","four","five"];
+console.log(array);
 
+function integers() {
+    for (i=0;i<5;i++)
+    console.log(array[i]);
+    }
+  integers();
 
 
 
